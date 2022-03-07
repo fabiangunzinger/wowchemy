@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "The waiting time paradox"
-subtitle: "A replication"
+title: "Idiomatic Python"
+subtitle: "My collection of frequently used best-practices"
 summary: ""
 authors: []
-tags: [datascience]
+tags: [python]
 categories: []
-date: 2020-01-14
-lastmod: 2020-01-14
+date: 2020-11-03
+lastmod: 2020-11-03
 featured: false
 draft: false
 
@@ -29,8 +29,8 @@ projects: []
 ---
 
  <iframe
-       src="./waiting-time-paradox.html"
+       src="./idiomatic-python.html"
        width="90%"
-       height="10000"
+       height="2000"
        style="border:none;">
  </iframe>

@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "The waiting time paradox"
-subtitle: "A replication"
+title: "Paradox"
+subtitle: ""
 summary: ""
 authors: []
-tags: [datascience]
+tags: [python, datascience]
 categories: []
-date: 2020-01-14
-lastmod: 2020-01-14
+date: 2022-02-20T14:52:07Z
+lastmod: 2022-02-20T14:52:07Z
 featured: false
 draft: false
 
@@ -31,6 +31,6 @@ projects: []
  <iframe
        src="./waiting-time-paradox.html"
        width="90%"
-       height="10000"
+       height="1000px"
        style="border:none;">
  </iframe>

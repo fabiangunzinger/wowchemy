@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "The waiting time paradox"
-subtitle: "A replication"
+title: "Pandas categories"
+subtitle: "Notes and applications"
 summary: ""
 authors: []
-tags: [datascience]
+tags: [pandas]
 categories: []
-date: 2020-01-14
-lastmod: 2020-01-14
+date: 2021-11-11
+lastmod: 2021-11-11
 featured: false
 draft: false
 
@@ -29,8 +29,8 @@ projects: []
 ---
 
  <iframe
-       src="./waiting-time-paradox.html"
+       src="./pandas-categories.html"
        width="90%"
-       height="10000"
+       height="3300px"
        style="border:none;">
  </iframe>
