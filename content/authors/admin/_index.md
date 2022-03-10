@@ -25,13 +25,13 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in behavioural science
+  - course: PhD in Behavioural Science
     institution: Warwick Business School
     year: 2022 (expected)
-  - course: MPhil in economics
+  - course: MPhil in Economics
     institution: University of Oxford
     year: 2017
-  - course: MSc in economics
+  - course: MSc in Economics
     institution: University of Bern
     year: 2012
 
@@ -64,13 +64,13 @@ email: ""
 highlight_name: false
 ---
 
-I am a behavioural and data scientist and use methods from data science and
-econometrics to elicit behaviour traits from large-scale datasets to better
-understand human behaviour and -- ultimately -- help built great tools that
-help people achieve their goals.
+I use methods from econometrics and machine learning, insights from behavioural
+science, and large human-generated datasets to study human behaviour in the
+wild. The scientist in me does this to further knowledge; the craftsman in me,
+with an eye towards helping to build great products.
 
-I've worked on topics in political economy, development economics, health
-economics, and financial economics. In my PhD research I use transaction-level
-data to better understand how people save.
+In the past, I have worked on topics in political economy, health and financial
+economics. In my current PhD research, I use transaction-level data to study
+how people spend and save money.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cvfgu.pdf" "newtab" >}}CV{{< /staticref >}}.
