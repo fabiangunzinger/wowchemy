@@ -1,9 +1,9 @@
 ---
-title: "Dictionaries"
-subtitle: "Notes and fluency exercises"
-tags: [python]
+title: "Machine learning basics"
+subtitle: "Reading notes"
+tags: [stats]
 
-date: 2022-02-28
+date: 2020-04-01
 featured: false
 draft: false
 
@@ -14,8 +14,8 @@ commentable: true
 ---
 
  <iframe
-       src="./dictionaries.html"
+       src="./machine-learning-basics.html"
        width="90%"
-       height="6100px"
+       height="9900px"
        style="border:none;">
  </iframe>
