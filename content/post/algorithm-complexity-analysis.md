@@ -7,9 +7,10 @@ date: 2021-11-21
 featured: false
 draft: false
 
-reading_time: false
+reading_time: true
 profile: false
 commentable: true
+summary: " "
 
 ---
 
