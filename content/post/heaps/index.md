@@ -13,6 +13,6 @@ commentable: true
  <iframe
        src="./heaps.html"
        width="90%"
-       height="2200px"
+       height="3500px"
        style="border:none;">
  </iframe>

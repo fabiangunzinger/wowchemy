@@ -65,9 +65,8 @@ highlight_name: false
 ---
 
 I use methods from econometrics and machine learning, insights from behavioural
-science, and large human-generated datasets to study human behaviour in the
-wild. The scientist in me does this to further knowledge; the craftsman in me,
-with an eye towards helping to build great products.
+science, and large datasets to study human behaviour in the
+wild. The scientist in me does this to further knowledge and understanding; the craftsman in me, to help build great products.
 
 In the past, I have worked on topics in political economy, health and financial
 economics. In my current PhD research, I use transaction-level data to study

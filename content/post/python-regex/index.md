@@ -3,7 +3,7 @@ title: "Python regex"
 subtitle: "Notes and practice"
 tags: [python]
 date: 2021-09-11
-featured: false
+featured: true
 draft: false
 
 reading_time: false
