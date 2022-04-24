@@ -58,6 +58,8 @@ Useful stuff I tend to forget:
 | `set: {option}&`    | Set option back to default value |
 | `\|`                | Command separator (equivalent to `;` in shell) |
 | `<c-k>-N`           | Enter en dash in insert mode using digraphs |
+| `<c-o-o>`           | After opening vim, opens last file with cursor at last
+edit|
 
 
 ## Help
@@ -166,6 +168,7 @@ Entering insert mode:
 | `A`       | Insert at end of current line |
 | `o`       | Insert in a new line below the current one |
 | `O`       | Insert in a new line above the current one |
+| `gi`      | Insert at the end of last insert |
 
 Useful commands:
 

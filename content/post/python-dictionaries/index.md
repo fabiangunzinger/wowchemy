@@ -16,6 +16,6 @@ commentable: true
  <iframe
        src="./python-dictionaries.html"
        width="90%"
-       height="6100px"
+       height="6700px"
        style="border:none;">
  </iframe>

@@ -103,8 +103,8 @@ Shorthand character classes
   breaks, though, so the above pattern would match the string *\nu*.)
 
 - Within a character class, metacharacters are literals with the exception of
-  *^*, *-*, *\* and *]* if they are used in places where they have special
-  meaning: ^ at the beginning, *-* as part of a range, *]* at the end, and *\*
+  *^*, *-*, *\\* and *]* if they are used in places where they have special
+  meaning: ^ at the beginning, *-* as part of a range, *]* at the end, and *\\*
   to escape another special character or to form a token (i.e. always), and *]*
   at the end. Hence, this regex matches them all as literals: `[]\\-^]` (for
   details on how to includ metacharacters indide character classes without
