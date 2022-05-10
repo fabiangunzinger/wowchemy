@@ -14,6 +14,7 @@ summary: " "
 
 ---
 
+
 I’m about to start with the write up of the entropy paper, but now face the
 issue that exporting nice regression tables from Python is a pain. linearmodels
 provides a comparison a function to create model summary tables but it can only
@@ -39,19 +40,53 @@ What do I need to do this?
 - Regression table library: use stargazer.
 
 
-- https://www.econometrics-with-r.org/10-rwpd.html
-- [Intro to metrics with R - panel
-  data](https://www.econometrics-with-r.org/10-rwpd.html)
+
+## Version control
 
 
-# Principles
+- For each dataset I work with, I have a separate GitHub repo (named
+  `data-NAME`) which contains
+  code to minimally clean the data so as to create a version of the data that I
+  can then use for all projects in which I use the data, the data documentation,
+  and any thoughts and notes pertaining to the data (e.g. known limitations,
+  additional information from the data provider, etc.).
 
-- Do not rename variables unless there is a very good reason for it.
 
-- Do not drop variables when sampling data (you might use those columns even if
-  you don't think you will).
+## Dependency management
 
-# Conda
+Tools:
+
+- [pyenv](https://github.com/pyenv/pyenv) is a Python version manager.
+
+- [virtualenv](https://github.com/pypa/virtualenv) is a tool to create isolated
+  virtual Python environments.
+
+- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a pyenv
+  plugin that allows you to use pyenv to manage virtualenvs.
+
+- [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
+  provides a set of wrappers to work with virtualenvs.
+
+- [poetry](https://python-poetry.org) is a packaging and dependency manager.
+
+
+Workflow (evolving):
+
+- Create virtual environment `pyenv virtualenv 3.9 projectname` and activate
+  venv `pyenv activate projectname`.
+
+- Create project folder with Poetry for nice default setup `poetry new
+  projectname` but rename `projectname` subdirectory to `src` because of
+  [this](https://hynek.me/articles/testing-packaging/) blog post.
+
+- Install required dependencies `poetry add pandas numpy seaborn` and
+  development dependencies `poetry add --dev ipykernel`.
+
+- Can reinstall dependencies using `poetry install`.
+
+
+
+### Conda
 
 - I create a separate environment for each major project.
 
@@ -66,13 +101,25 @@ What do I need to do this?
   version), pipenv, or poetry. But I don't understand how they relate to one
   another, so need to to this if I want to switch.
 
-# GitHub
-
-- For each dataset I work with, I have a separate GitHub repo (named
-  `data-NAME`) which contains
-  code to minimally clean the data so as to create a version of the data that I
-  can then use for all projects in which I use the data, the data documentation,
-  and any thoughts and notes pertaining to the data (e.g. known limitations,
-  additional information from the data provider, etc.).
 
 
+Advantages:
+
+- Easily handles separate Python versions for each project.
+
+
+Disadvantages:
+
+- I find it clunky and often slow (removing a package can take an extremely
+  long time).
+
+- Some packages aren't available, so you need PyPI (via pip) nonetheless.
+
+
+
+
+## Sources
+
+- Great
+  [post](https://www.ethanrosenthal.com/2022/02/01/everything-gets-a-package/)
+  by Ethan Rosenthal on dependency management and packaging.

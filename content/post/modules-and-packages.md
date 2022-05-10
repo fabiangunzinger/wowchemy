@@ -89,6 +89,38 @@ summary: " "
   clashing global variable names between modules, using a package alleviates
   worries about clashing module between multi-module packages.
 
+### Example: creating utility package
+
+Utils repo:
+
+- If you want to publish to PyPI, choose name that doesn't exist yet.
+
+- Create virtual environment `pyenv virtualenv 3.9 futils` and activate
+  venv `pyenv activate futils`.
+
+- Create project folder with Poetry for nice default setup `poetry new
+  projectname` but rename `projectname` subdirectory to `src` because of
+  [this](https://hynek.me/articles/testing-packaging/) blog post.
+
+- Install required dependencies `poetry add pandas numpy seaborn` and
+  development dependencies `poetry add --dev ipykernel`.
+
+- Can reinstall dependencies using `poetry install`.
+
+- Publish project to private server: `poetry publish -r reponame`. -- currently
+  not working, getting 403 forbidden error
+
+
+Project repo:
+
+- Install 
+
+
+## todo
+
+- Automatic git credentials reading when publishing package
+
+- Remove pyenv prompt warning message
 
 
 ## Sources

@@ -130,11 +130,6 @@ My evolving notes and on how to effectively use Git and GitHub.
 
 ## Frequently used stuff and best practices 
 
-- I've made changes pertaining to two different issues in the same file. How do
-  I commit them separately? Use the `--patch` option either with `git add` or
-  `git commit`. This effectively opens the `patch` option of the interactive
-  menue, which I could access using the `--interactive` option.
-
 - I've started to work on an issue I decide I don't want to work on yet but I
   want to save that work. Just
   [stash](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning) the
@@ -157,6 +152,17 @@ My evolving notes and on how to effectively use Git and GitHub.
   unlike `merge`, which takes the endpoints of two branches and merges them
   together, `rebase` applies changes from the branch you merge onto the branch
   you merge to in the order they happened and thus creates a linear history.
+
+- Adding a local repository to GitHub:
+    
+    1. Initialise the local repo as a Git repository: `git init`.
+
+    2. Add and commit all content of the local repo: `git add --all; git commit
+       -m 'Intial commit'`.
+
+    3. Create a GitHub repo and follow prompts: `gh repo create`.
+
+    4. Done.
 
 
 ## Understanding reset
