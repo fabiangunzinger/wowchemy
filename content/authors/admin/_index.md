@@ -64,8 +64,10 @@ email: ""
 highlight_name: false
 ---
 
-I use methods from econometrics and machine learning, insights from behavioural
-science, and large datasets to study human behaviour in the
-wild. The scientist in me loves doing this to further understanding; the craftsman in me, to help build great products.
+Hi there, and thank you for visiting! I'm a behavioural and data scientist who
+uses large datasets, insights from behavioural science, and methods from
+econometrics, causal inference, and machine learning to study human beahviour
+in the wild. The scientist in me loves doing this to further knowledge; the
+craftsman in me, to help build great products.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cvfgu.pdf" "newtab" >}}CV{{< /staticref >}}.
