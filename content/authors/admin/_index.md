@@ -66,7 +66,7 @@ highlight_name: false
 
 Hi there, and thank you for visiting! I'm a behavioural and data scientist who
 uses large datasets, insights from behavioural science, and methods from
-econometrics, causal inference, and machine learning to study human beahviour
+econometrics, causal inference, and machine learning to study human behaviour
 in the wild. The scientist in me loves doing this to further knowledge; the
 craftsman in me, to help build great products.
 
